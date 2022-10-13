@@ -35,19 +35,19 @@ docker run --rm <image names> /run.sh <Your Secret>
 
 # Don't want to build?
 
-1、Pull images
+### 1、Pull images
 
 ```shell
 docker pull syskey66/manta:1.1
 ```
 
-2、Register
+### 2、Register
 
 ```
 docker run --rm syskey66/manta:1.1 /run.sh <Twitter username> <Email>
 ```
 
-3、Contribution
+### 3、Contribution
 
 ```
 run --rm syskey66/manta:1.1 /run.sh <Your Secret>
